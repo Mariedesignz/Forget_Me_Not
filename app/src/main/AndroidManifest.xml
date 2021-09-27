@@ -10,10 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ForgetMeNot">
-        <activity android:name=".MainActivity" android:configChanges="orientation|screenSize"/>
-
-        <activity android:name=".MainActivity"
-            tools:ignore="DuplicateActivity">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
